@@ -1,0 +1,12 @@
+{
+  "name": "Ruby",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --quiet --transpile-only --clear --rs -- ./index.ts"
+  }
+}
